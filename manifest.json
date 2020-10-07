@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "My Awesome Background script",
+    "version": "1.0.0",
+    "permissions": ["alarms"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
